@@ -1,3 +1,3 @@
 Mathias Brix Drejer
-md266@cphbusiness.dk
+cph-md266@cphbusiness.dk
  
