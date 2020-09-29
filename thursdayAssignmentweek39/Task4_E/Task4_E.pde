@@ -1,6 +1,6 @@
 void setup(){
   
-  fibonacci(40);
+  fibonacci(22);
 }
 
 

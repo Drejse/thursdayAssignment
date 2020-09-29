@@ -8,7 +8,16 @@ void setup() {
   size(350, 350); 
 
   board = new int[8][8];
-  
+  // 0,1,0,1,0,1,0,1
+  // 1,0,1,0,1,0,1,0
+  // 0,1,0,1,0,1,0,1
+  // 1,0,1,0,1,0,1,0
+  // 0,1,0,1,0,1,0,1
+  // 1,0,1,0,1,0,1,0
+  // 0,1,0,1,0,1,0,1
+  // 1,0,1,0,1,0,1,0
+
+
   for (int x=0; x<board.length; x++) {
     //Looping through X to find either 0 or 1 if x modulus 2 == 0 we'll assign the brick 0 otherwise the brick is 1
     if (x%2 == 0) {
@@ -35,9 +44,9 @@ void draw() {
   for (int x=0; x<board.length; x++) {
     for (int y=0; y<board.length; y++) {
       if (board[x][y] == 1) {
-        fill(139,69,19);
+        fill(139, 69, 19);
       } else {
-        fill(259,250,210);
+        fill(259, 250, 210);
       }
 
       rect(x*sideLength, y*sideLength, sideLength, sideLength);
